@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 48px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 6px;
+  background-color: black;
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 64px;
+}
+
+.message {
+  font-size: larger;
+}
